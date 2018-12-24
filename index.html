@@ -3,92 +3,60 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Rob's Personal Site</title>
+  <title>Rob Middleton</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico|Rokkitt" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/robprofile.jpg" alt="Rob porfile picture"></td>
-      <td>
-        <h1>Rob Middleton</h1>
-        <p><em>Code Ninja <strong>in training</strong>.</em></p>
-        <p>I am a full time worker and father to three. I developed a passion of coding whilst recovering from a broken leg late last year. An extended period of time like that really did spark the fire and I enrolled with FreeCodeCamp.org, where I
-          quickly worked through the lessons and gained some knowledge of HTML, CSS and Javascript. Struggling to understand the Javascript, I signed up for an account with Udemy and pursued Javascript course.<br />Whilst moving through the JS
-          course, I decided on a project, make a web app of Yatzhee. Unfortnately, at was time to go back to work and coding went on the back burner until recently. I have enrolled on another course through Udemy covering web development and other
-          associated technologies. Hopefully I can work out the best way to start my project</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Birstall Primary</li>
-    <li>Bruntcliffe High School</li>
-    <li>FreeCodeCamp(<em>present</em>)</li>
-    <li>Udemy(<em>present</em>)</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <p> </p>
-  <p> </p>
-  <p> </p>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2016-present</td>
-        <td>Warehouse Operative</td>
-      </tr>
-      <tr>
-        <td>2006-2016</td>
-        <td>Warehouse Supervisor</td>
-      </tr>
-      <tr>
-        <td>2006</td>
-        <td>Warehouse Operative</td>
-      </tr>
-    </tbody>
 
-  </table>
-<hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Javascript</td>
-            <td>⭐⭐</td>
-          </tr>
-          <tr>
-            <td>C</td>
-            <td>⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My hobbies and Interests</a><br>
-  <a href="contact.html">Contact Me</a>
+  <div class="top-container">
+    <img id="top" class="cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Rob.</h1>
+    <h2>A developer in the making.</h2>
+    <img id="bottom" class="cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain.png">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="icon" src="images/robprofile.jpg" alt="rob-profile">
+      <h2>Hello.</h2>
+      <p class="bio">My name is Rob and I am a developer in the making. This site is a testiment to my skills and knowledge</p>
+
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <p>Over time this section will continue to expand as I progress along my to becoming a developer.</p>
+      <div class="skill-row">
+        <img class="icon l" src="images/HTML_Logo.png" alt="html-icon">
+        <h3>HTML</h3>
+        <p>The first building blocks of of any website.<br />⭐⭐⭐⭐</p>
+      </div>
+      <div class="skill-row">
+        <img class="icon r" src="images/CSS_Logo.png" alt="css-icon">
+        <h3>CSS</h3>
+        <p>Time to give it some style.<br />⭐⭐</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Unavailable for work.</h3>
+      <p class="msg">Currently unavailable for work due to the learning curve that is still being implemented. However, please feeel free to send me a message</p>
+      <a class="butn" href="https://m.me/blood.mint/">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com/blood.mint">Facebook</a>
+    <a class="footer-link" href="https://github.com/Bloodredmint">Github</a>
+    <a class="footer-link" href="#top">Back to top</a>
+    <p class="copy">© 2018 Rob Middleton.</p>
+  </div>
 </body>
 
 </html>
